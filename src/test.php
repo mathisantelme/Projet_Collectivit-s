@@ -1,7 +1,4 @@
 <?php
-
-$output = shell_exec('python3 testScrap.py');
+$output = shell_exec('sudo python3 testScrap.py');
 echo($output);
-
-list_dir(".");
 ?>
