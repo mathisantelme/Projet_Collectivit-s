@@ -5,9 +5,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("id")
 parser.add_argument("nom")
 args = parser.parse_args()
-print(args.nom)
-print(args.id)
-
 
 l = args.nom
 

@@ -9,9 +9,6 @@ foreach($donnees as $donnee){
 	$id = $donnee['id'];
 	$compte_twitter = $donnee['compte_twitter'];
 	$nom = explode("/", $compte_twitter)[3];
-	echo($id . " ");
-	echo($nom . "<br/>");
-	echo('sudo python3 testScrap.py '. $id .' '. $nom);
 	
 	$output = shell_exec('sudo python3 testScrap.py '. $id .' '. $nom);
 	echo($output);
