@@ -15,7 +15,7 @@ c.Profile_full = True # Permet de scraper depuis la timeline du compte
 c.Retweets = True
 c.Hide_output = True
 c.Username = l # défini le compte à scraper
-c.Output = "Output/" + str(args.id) # défini le dossier où sont stocket les CSV
+c.Output = "scraps/" + str(args.id) # défini le dossier où sont stocket les CSV
 c.Custom["user"] = ["id", "username", "join_date", "verified", "following", "followers"]
 c.Custom["tweet"] = ["id", "conversation_id", "username", "date", "link", "tweet", "photos", "video", "likes_count", "retweets_count", "replies_count", "retweet", "retweet_date"]
 
