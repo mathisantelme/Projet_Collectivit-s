@@ -26,7 +26,9 @@ Attention à ne pas exécuter le script une seconde fois avec les même fichiers
 #### Connexion à la base de données
 
 La connexion à la base se fait à partir de la ligne de code suivante :
+
 *$conn = mysqli_connect("localhost", "phpmyadmin", "martinez", "phpmyadmin");*
+
 Il faut donc penser à changer les valeurs ci-dessus par celles de la base de données utilisée. (host, username, password, database_name)
 
 
