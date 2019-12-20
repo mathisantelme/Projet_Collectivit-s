@@ -1,4 +1,4 @@
-# Projet_Collectivit-s
+# Projet Collectivités
 Projet de Master - Analyse de la présence des collectivités territoriales sur les réseaux sociaux
 
 ## Script "script_insertion_donnees.php"
